@@ -145,12 +145,3 @@ Developed by **[@Joao Pacheco](https://github.com/Joao-Pacheco)**.
 ### 🚀 **Now you're ready to optimize API requests in your React app with `useSmartFetch`!** 🚀
 
 ---
-
-This README is now **complete and detailed**, including:  
-✅ **Installation guide**  
-✅ **How to use the library**  
-✅ **API documentation**  
-✅ **How caching works**  
-✅ **Customization tips**
-
-If you need any **adjustments or extra details**, let me know! 🚀🔥
