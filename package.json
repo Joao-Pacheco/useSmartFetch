@@ -1,6 +1,6 @@
 {
   "name": "use-smart-fetch",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "useSmartFetch is a custom React hook that simplifies making HTTP requests using the native fetch API while automatically managing loading states, errors, caching, and expiration.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
