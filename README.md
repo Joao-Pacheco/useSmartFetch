@@ -138,7 +138,7 @@ This project is licensed under the **MIT License**.
 
 ## 👨‍💻 **Author**
 
-Developed by **@Joao-Pacheco**.
+Developed by **[@Joao Pacheco](https://github.com/Joao-Pacheco)**.
 
 ---
 
