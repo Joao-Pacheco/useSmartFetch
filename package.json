@@ -1,0 +1,28 @@
+{
+  "name": "use-smart-fetch",
+  "version": "1.0.0",
+  "description": "useSmartFetch is a custom React hook that simplifies making HTTP requests using the native fetch API while automatically managing loading states, errors, caching, and expiration.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joao-Pacheco/useSmartFetch.git"
+  },
+  "keywords": [
+    "fetch",
+    "react",
+    "cache",
+    "hook"
+  ],
+  "author": "Joao Pacheco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joao-Pacheco/useSmartFetch/issues"
+  },
+  "homepage": "https://github.com/Joao-Pacheco/useSmartFetch#readme",
+  "devDependencies": {
+    "react": "^19.0.0"
+  }
+}
