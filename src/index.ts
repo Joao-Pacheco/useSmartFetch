@@ -14,11 +14,15 @@ type FetchState<T> = {
   refetch: () => void;
 };
 
-export function useSmartFetch<T>(
-  url: string,
-  options?: RequestInit,
-  cacheDuration: number = 300000
-): FetchState<T> {
+export function useSmartFetch<T>({
+  url,
+  options,
+  cacheDuration = 300000,
+}: {
+  url: string;
+  options?: RequestInit;
+  cacheDuration?: number;
+}): FetchState<T> {
   const [data, setData] = useState<T | null>(null);
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);

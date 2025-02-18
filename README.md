@@ -51,13 +51,14 @@ Alternatively, if you prefer **manual installation**, simply copy the `useSmartF
 Import the hook into your React component and provide the API URL along with any options.
 
 ```tsx
+"use client";
 import React from "react";
 import { useSmartFetch } from "use-smart-fetch"; // Import the hook
 
 export default function App() {
-  const { data, loading, error, refetch } = useSmartFetch(
-    "https://jsonplaceholder.typicode.com/posts"
-  );
+  const { data, loading, error, refetch } = useSmartFetch<Array<any>>({
+    url: "https://jsonplaceholder.typicode.com/posts",
+  });
 
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error: {error}</p>;
