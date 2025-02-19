@@ -51,14 +51,14 @@ export function useSmartFetch<T>({
 
     try {
       const response = await fetch(url, { ...options, signal });
-      if (!response.ok) throw new Error("Erro na requisição");
+      if (!response.ok) throw new Error("error fetching data");
       const result = await response.json();
 
       cache.set(cacheKey, { result, expiry: now + cacheDuration });
       setData(result);
     } catch (err) {
       if (!(err instanceof DOMException)) {
-        setError(err instanceof Error ? err.message : "Erro desconhecido");
+        setError(err instanceof Error ? err.message : "error unknown");
       }
     } finally {
       setLoading(false);
