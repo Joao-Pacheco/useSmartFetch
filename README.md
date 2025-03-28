@@ -126,7 +126,7 @@ You can modify the hook to fit your needs:
 
 ## 🤝 **Contributing**
 
-Feel free to open **issues** or submit **pull requests** if you have suggestions, improvements, or feature requests!
+You feel free to open **issues** or submit **pull requests** if you have suggestions, improvements, or feature requests!
 
 ---
 
